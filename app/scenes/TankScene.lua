@@ -19,17 +19,17 @@ function TankScene:onCreate()
     display.newSprite("background1.png"):move(display.center):addTo(self)
    
     local tank1 =require("app/scenes/TankRole").new()
-    tank:setPosition(100,200)
+    tank1:setPosition(100,200)
     self:addChild(tank1)
     
     local tank2 =require("app/scenes/TankRole").new()
-    tank:setPosition(800,100)
-    tank:setRotationSkewY(180)
+    tank2:setPosition(800,200)
+    tank2:setRotationSkewY(180)
     self:addChild(tank2)
     
     
     
-
+   
   
    
     

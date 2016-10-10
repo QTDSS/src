@@ -22,8 +22,8 @@ function TankRole:shot()
     local actionBy = cc.MoveBy:create(2, cc.p(1000, 0))
     bee:runAction(cc.Sequence:create(actionBy, cc.CallFunc:create(function() bee:removeFromParent() end)))
 
+   
 
-    
 end
 function TankRole:dead()
     for i=1 , self.size do

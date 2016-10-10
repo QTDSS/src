@@ -8,11 +8,11 @@ require "cocos.init"
 
 local function main()
     --require("app.MyApp"):create():run()
-    --local scene = cc.Scene:create()
+    
     local scene = require("app/scenes/TankScene").new()
     
     display.runScene(scene)
-
+     
 
 end
 
